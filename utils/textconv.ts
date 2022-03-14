@@ -1,4 +1,4 @@
-type TextConvertFunc = (input: string)=>string;
+export type TextConvertFunc = (input: string)=>string;
 
 const toConstant: TextConvertFunc = (input:string)=>{
     const snakedInput = input.replaceAll(" ", "_");
@@ -18,6 +18,7 @@ const capitalize: TextConvertFunc = (input:string)=>{
 };
 
 const toUpperCamelCase: TextConvertFunc = (input:string)=>{
+    // NOTE: 現状の実装では複数行の場合にはうまく動作しない
     return input.split(" ").map(capitalize).join("");
 };
 
