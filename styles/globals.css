@@ -4,42 +4,42 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .markdown h1 {
-  @apply text-2xl;
+	@apply text-2xl;
 }
 .markdown h2 {
-  @apply text-xl;
+	@apply text-xl;
 }
 .markdown h3 {
-  @apply text-lg;
+	@apply text-lg;
 }
 .markdown a {
-  @apply text-blue-600 underline;
+	@apply text-blue-600 underline;
 }
 
 .markdown ol {
-  @apply ml-5 list-decimal;
+	@apply ml-5 list-decimal;
 }
 
 .markdown ul {
-  @apply ml-5 list-disc;
+	@apply ml-5 list-disc;
 }
 
 .markdown {
-  @apply bg-gray-800 text-slate-500;
+	@apply bg-gray-800 text-slate-500;
 }
