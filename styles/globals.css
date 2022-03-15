@@ -18,3 +18,28 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.markdown h1 {
+  @apply text-2xl;
+}
+.markdown h2 {
+  @apply text-xl;
+}
+.markdown h3 {
+  @apply text-lg;
+}
+.markdown a {
+  @apply text-blue-600 underline;
+}
+
+.markdown ol {
+  @apply ml-5 list-decimal;
+}
+
+.markdown ul {
+  @apply ml-5 list-disc;
+}
+
+.markdown {
+  @apply bg-gray-800 text-slate-500;
+}
