@@ -21,7 +21,7 @@ const Editor: React.FunctionComponent<EditorProps> = ({ text, setText = defaultS
             height="100%"
             theme="dark"
         />
-    )
-}
+    );
+};
 
 export default Editor;

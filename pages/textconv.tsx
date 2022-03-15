@@ -7,7 +7,7 @@ import {toConstant, toLowerCase, toSnakeCase, toUpperCamelCase,} from "../utils/
 
 const radioButtonLabelStyle: string = "flex py-2 px-5 bg-gray-900 border border-gray-300 rounded-lg text-slate-300 cursor-pointer focus:outline-none hover:bg-gray-800 peer-checked:bg-gray-700 peer-checked:border-transparent";
 
-type InputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>)=>void;
+type InputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>)=>void
 
 interface RadioButtonProps{
     value: string;
@@ -31,7 +31,7 @@ const RadioButton: React.FunctionComponent<RadioButtonProps> = ({value,name,id,l
             </label>
         </div>
     );
-}
+};
 
 const emptyTextConv: TextConvertFunc = (a:string)=>a;
 
@@ -52,7 +52,7 @@ const TextConv: NextPage = () => {
         const tmp = nameFuncList.findIndex((item)=>item[0]===e.target.value);
         const tarFunc = tmp>=0?tmp:0;
         setFuncIndex(tarFunc);
-    }
+    };
 
     useEffect(() => {
         setConvText(nameFuncList[funcIndex][1](inputText));
@@ -81,7 +81,7 @@ const TextConv: NextPage = () => {
                 />
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default TextConv;

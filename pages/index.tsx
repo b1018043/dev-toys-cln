@@ -9,13 +9,13 @@ const Home: NextPage = () => {
       Hello world!
     </h1>
       <Link href="/textconv">
-        <p>text conv</p>
+        <a>text conv</a>
       </Link>
       <Link href="/markdown">
-        <p>markdown</p>
+        <a>markdown</a>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

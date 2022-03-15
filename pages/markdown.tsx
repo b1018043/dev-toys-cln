@@ -18,7 +18,7 @@ const Markdown: NextPage = () => {
                 <ReactMarkdown>{inputText}</ReactMarkdown>
             </div>
             </div>
-  )
-}
+  );
+};
 
-export default Markdown
+export default Markdown;
