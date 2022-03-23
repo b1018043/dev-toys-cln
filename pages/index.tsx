@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 			<Link href='/yamljson'>
 				<a>JSON yaml</a>
 			</Link>
-      <Link href='/jsonformatter'>
+			<Link href='/jsonformatter'>
 				<a>JSON formatter</a>
 			</Link>
 		</div>
