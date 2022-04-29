@@ -15,7 +15,7 @@ interface LinkCardProps{
 const LinkCard: React.FunctionComponent<LinkCardProps> = (props)=>{
     return (
         <Link href={props.href}>
-            <div>
+            <div className='w-1/6 bg-gray-800 p-8 rounded-sm'>
                 <IconView>
                     {props.icon}
                 </IconView>
